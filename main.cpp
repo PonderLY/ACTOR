@@ -24,7 +24,7 @@
 
 #define MAX_PATH_LENGTH 100
 
-int binary = 0, num_threads = 1, vector_size = 100, negative = 5, second_order=1, activity_mode=0;
+int binary = 0, num_threads = 10, vector_size = 100, negative = 5, second_order=1, activity_mode=0;
 char job_id[MAX_STRING]="0";
 long long samples = 1, edge_count_actual;
 real alpha = 0.025, starting_alpha;
